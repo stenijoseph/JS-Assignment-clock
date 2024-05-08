@@ -31,8 +31,25 @@ if(hrs>=12){
 else{
     am.innerHTML="AM"
 }
+if(secs<10)
+  {
+secs="0"+secs
+  }
+if(minutes<10)
+  {
+ minutes="0"+minutes   
+  }
+  if(hrs<10)
+    {
+      hrs="0"+hrs
+    }
+ if(hrs>12)
+   {
+   hrs=hrs-12
+  }
 hour.innerHTML=hrs
 min.innerHTML=minutes
 seco.innerHTML=secs
 }
+
 setInterval(displayTime,10)
