@@ -1,2 +1,2 @@
-![screenshot](./clock-light.png)
-![screenshot](./clock-dark.png)
+![screenshot](./digitalclock-light.png)
+![screenshot](./digitalclock-light.png)
